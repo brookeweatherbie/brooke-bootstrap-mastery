@@ -24,10 +24,29 @@
 
 // Custom styles:
 
-.caption {
+.description {
   font-style: bold;
 }
 
 .credit {
   font-style: italic;
+}
+
+.jumbotron {
+  background: url("../img/pirate-ship.jpg") no-repeat center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  font-family:'Helvetica Neue', Courier, monospace;
 }
