@@ -24,10 +24,6 @@
 
 // Custom styles:
 
-.name {
-  font-style: bold;
-}
-
 .credit {
   font-style: italic;
 }
@@ -54,4 +50,9 @@ h1 {
 footer {
   background-color: teal;
   color: white;
+}
+
+.carousel-caption {
+  color: white; 
+  text-shadow: 2px 2px 2px teal;
 }
