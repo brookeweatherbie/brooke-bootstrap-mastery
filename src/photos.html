@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<div class="container-fluid">
   <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Pirate Cove</a>
@@ -29,58 +30,58 @@
 
   <!-- Content starts here -->
 
-  <div class="container">
-    <header class="jumbotron p-5">
-      <h1>Ship's Log</h1>
+  <header class="jumbotron p-5 mb-3">
+    <h1>Ship's Log</h1>
       <p class="heading">A diary by Capt. Crit 'Red Beard' McGillicutty</p>
-    </header>
-    </div>
-  </div>
+  </header>
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/kraken01.jpg" class="d-block w-100" alt="A kraken attacks a ship">
-        <div class="carousel-caption d-none d-md-block">
+  <div class="row justify-content-center">
+    <div class="col-sm-10 md-10 lg-8">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/kraken01.jpg" class="d-block w-100" alt="A kraken attacks a ship">
+          <div class="carousel-caption d-none d-md-block">
           <h5>Kraken #1</h5>
           <p>This guy is scary.</p>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="img/kraken02.jpg" class="d-block w-100" alt="A kraken's tentacles wrap around a ship, holding it aloft">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-item">
+          <img src="img/kraken02.jpg" class="d-block w-100" alt="A kraken's tentacles wrap around a ship, holding it aloft">
+          <div class="carousel-caption d-none d-md-block">
           <h5>Kraken #2</h5>
           <p>This guy is really strong.</p>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/kraken03.jpg" class="d-block w-100" alt="A kraken pulls a ship into the depths of the ocean">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-item">
+          <img src="img/kraken03.jpg" class="d-block w-100" alt="A kraken pulls a ship into the depths of the ocean">
+          <div class="carousel-caption d-none d-md-block">
           <h5>Kraken #3</h5>
           <p>This guy is about to have a snack.</p>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
   </div>
 
-  <div>
-    <footer class="container text-center my-3">
-      <p>A class project by Brooke Weatherbie.</p>
-    </footer>
-  </div>
+  <footer class="text-center my-3">
+    <p>A class project by Brooke Weatherbie.</p>
+  </footer>
+</div>
 
     <!-- Closing scripts here -->
     <script src="js/bootstrap.bundle.min.js"></script>
